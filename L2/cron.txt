@@ -1,0 +1,17 @@
+Check cron status
+service cron start
+
+Check cron jobs running
+crontab -l
+
+Add a new cron job
+crontab -e
+
+The following cron job will run every minute of every day:
+* * * * * python /home/workspace/L2/demo1/crondemo.py
+
+The following cron job will run at 12:59 on January 5, just once per year:
+59 12 5 1 * python /home/workspace/L2/demo1/crondemo.py
+
+The following cron job will run on Fridays, once per hour at 59 minutes past every hour:
+59 * * *  5 python /home/workspace/L2/demo1/crondemo.py
