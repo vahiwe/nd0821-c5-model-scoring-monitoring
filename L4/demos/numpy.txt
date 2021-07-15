@@ -1,0 +1,10 @@
+Name: numpy
+Version: 1.21.0
+Summary: NumPy is the fundamental package for array computing with Python.
+Home-page: https://www.numpy.org
+Author: Travis E. Oliphant et al.
+Author-email: None
+License: BSD
+Location: /opt/anaconda3/envs/udacity/lib/python3.8/site-packages
+Requires: 
+Required-by: scipy, scikit-learn, pandas, matplotlib
